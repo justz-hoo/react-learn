@@ -1,12 +1,10 @@
+import { useState } from 'react';
 import './App.css';
-import { Form } from './components/Form';
+import { useToggle } from './useToggle';
+import {Cat} from './Cat';
 
 function App () {
-  return (
-    <div className='App'>
-      <Form/>
-    </div>
-  );
+  return(<Cat />);
 }
 
 export default App;
