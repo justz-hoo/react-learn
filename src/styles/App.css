@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  background-color: lavender;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.links {
+  width: 12%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.links a {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  color: darkslateblue;
+  /* margin-right: 40px;
+  line-height: 50px; */
+}
+
+.links a:hover {
+  color: white;
+  background: darkslateblue;
+}
+
+.user {
+  width: 20%;
+  height: 100%;
+  margin-left: 20px;
+}
+.user > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.user p {
+  font-size: 14px;
+  margin-right: 10px;
+  color: darkslateblue;
+}
+
+.cssbuttons-io-button {
+  background: #A370F0;
+  color: white;
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #714da6;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+ }
+ 
+ .cssbuttons-io-button .icon {
+  background: white;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+  right: 0.3em;
+  transition: all 0.3s;
+ }
+ 
+ .cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+ }
+ 
+ .cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #7b52b9;
+ }
+ 
+ .cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+ }
+ 
+ .cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
+ } 
+
+.user img {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
