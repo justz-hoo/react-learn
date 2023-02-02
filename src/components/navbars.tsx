@@ -13,11 +13,11 @@ export const Navbar = () => {
   return (
     <div className="navbar">
       <div className="links">
-        <Link to="/">Home</Link>
+        <Link to="/react-learn">Home</Link>
         {user ? (
-          <Link to='/createpost'>Post</Link>
+          <Link to='/react-learn/createpost'>Post</Link>
         ) :(
-          <Link to="/login">Login</Link>
+          <Link to="/react-learn/login">Login</Link>
         )}
       </div>
       <div className="user">

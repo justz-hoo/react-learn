@@ -1,0 +1,87 @@
+#sign-in {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.sign-in {
+  width: 50%;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 10px 0 10px;
+}
+
+.sign-in-block {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+.sign-in-block p {
+  font-size: 18px;
+  color: #a370f0;
+  font-weight: bold;
+  width: fit-content;
+}
+
+.sign-in-btn {
+  background: #a370f0;
+  color: white;
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #714da6;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+}
+
+.sign-in-btn .icon {
+  background: white;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+.sign-in-btn:hover .icon {
+  width: calc(100% - 0.6em);
+}
+
+.sign-in-btn .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #7b52b9;
+}
+
+.sign-in-btn:hover .icon svg {
+  transform: translateX(0.1em);
+}
+
+.sign-in-btn:active .icon {
+  transform: scale(0.95);
+}

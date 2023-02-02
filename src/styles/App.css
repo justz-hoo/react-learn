@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 body {
   margin: 0;
@@ -197,3 +197,4 @@ body {
   transform: translateY(10px);
   transition: 100ms;
 }
+
